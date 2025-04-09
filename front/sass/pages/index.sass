@@ -67,7 +67,6 @@ body
       text-transform: uppercase
       display: flex
       justify-content: center
-      align-items: center
       z-index: 2
       &.bonus
         max-height: 109px
@@ -77,10 +76,12 @@ body
         position: relative
         box-shadow: 0px 6px 8px rgba(28, 30, 119, 0.53)
         transform: rotate(1deg)
-        padding-top: 6px
+        padding-top: 3px
         &.noios-padding
       &.money
         width: 600px
+        max-height: 129px
+        min-height: 129px
         color: $white
         background-color: $magenta
         font-size: 80px
@@ -88,7 +89,6 @@ body
         display: flex
         z-index: 1
         margin-top: -5px
-        align-items: baseline
         padding-top: 15px
         transform: rotate(-5deg)
         &.noios-padding
@@ -97,9 +97,12 @@ body
           color: $white
           font-size: 40px
           padding-right: 14px
+          padding-top: 13px
       &.fs
         transform: rotate(-8deg)
         width: 368px
+        max-height: 89px
+        min-width: 89px
         background-color: $white
         font-size: 68px
         margin-top: -5px
